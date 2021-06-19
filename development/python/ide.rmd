@@ -1,0 +1,8 @@
+## Basic idea
+
+1. Split window evenly for purpose such as writing code and testing it 
+2. Design minimal movement for certain purpose with shortcut key
+3. Design minimal yet more informatif environtment like status line
+4. Easy access to git feature like status and commit
+5. Easy access file folder
+6. Easy movement for several file

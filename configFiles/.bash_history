@@ -1,5 +1,3 @@
-nv ~/.config/sxhkd/sxhkdrc 
-clr
 brightnessctl g
 brightnessctl g
 brightnessctl g
@@ -498,3 +496,5 @@ startx
 tmux source
 tmux source-file .tmux.conf 
 shutdown 0
+ls
+ls -la
