@@ -1,0 +1,11 @@
+
+alias clr="clear"
+alias nv="nvim"
+alias v="vim"
+alias nvr="nvim ~/.config/nvim/init.vim"
+alias vmr="nvim ~/.vimrc"
+alias bsr="nvim ~/.bashrc"
+alias bsa="nvim ~/.bash_aliases"
+alias sxh="nvim ~/.config/sxhkd/sxhkdrc"
+alias bsp="nvim ~/.config/bspwm/bspwmrc"
+alias pbr="nvim ~/.config/polybar/config"
