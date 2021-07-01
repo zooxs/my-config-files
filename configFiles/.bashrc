@@ -2,8 +2,6 @@
 # ~/.bashrc
 #
 
-xrdb ~/.Xresources
-
 shopt -s autocd
 export PATH="$HOME/script:$PATH"
 export WALLPAPER=$HOME/.config/wallpaper/wal.png

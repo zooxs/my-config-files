@@ -40,6 +40,7 @@ do
     fi
 done
 
+# go to backupp directory, add everything and set a commit
 cd $HOME/backup
 git add .
 git commit -m "backup data at $(date)"

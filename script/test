@@ -1,0 +1,4 @@
+#! /bin/sh
+sample="[Author 1] Simple Title (Volume 1) [language]"
+
+echo $sample | sed -e 's/[\[\]]/-/g'

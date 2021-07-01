@@ -1,4 +1,5 @@
 
+alias fml="source $HOME/venv/forml/bin/activate"
 alias clr="clear"
 alias nv="nvim"
 alias v="vim"
@@ -9,3 +10,4 @@ alias bsa="nvim ~/.bash_aliases"
 alias sxh="nvim ~/.config/sxhkd/sxhkdrc"
 alias bsp="nvim ~/.config/bspwm/bspwmrc"
 alias pbr="nvim ~/.config/polybar/config"
+alias pcm="nvim ~/.config/picom/picom.conf"

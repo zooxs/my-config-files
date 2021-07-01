@@ -1,500 +1,500 @@
-brightnessctl g
-brightnessctl g
-brightnessctl g
-nv ~/.config/sxhkd/sxhkdrc 
-brightnessctl g
-brightnessctl set $(expr $(brightnessctl g) + 10)
-brightnessctl set $(expr $(brightnessctl g) - 10)
-nv ~/.config/sxhkd/sxhkdrc 
-brightnessctl g
-brightnessctl g
-nv ~/.config/sxhkd/sxhkdrc 
-brightnessctl set $(expr $(brightnessctl g) - 10)
-brightnessctl set $(expr $(brightnessctl g) - 10)
-brightnessctl set $(expr $(brightnessctl g) - 10)
-brightnessctl set $(expr $(brightnessctl g) - 10)
-brightnessctl set $(expr $(brightnessctl g) - 10)
-brightnessctl set $(expr $(brightnessctl g) - 10)
-brightnessctl set $(expr $(brightnessctl g) - 10)
-brightnessctl set $(expr $(brightnessctl g) - 10)
-brightnessctl set $(expr $(brightnessctl g) + 10)
-brightnessctl set $(expr $(brightnessctl g) + 10)
-brightnessctl set $(expr $(brightnessctl g) + 10)
-brightnessctl set $(expr $(brightnessctl g) + 10)
-brightnessctl set $(expr $(brightnessctl g) + 10)
-brightnessctl set $(expr $(brightnessctl g) + 10)
-brightnessctl set $(expr $(brightnessctl g) + 10)
-brightnessctl set $(expr $(brightnessctl g) + 10)
-brightnessctl set $(expr $(brightnessctl g) + 10)
-nv ~/.config/sxhkd/
-clr
 ls
-brightnessctl 
-brightnessctl g
-brightnessctl g
-nv ~/.config/sxhkd/
-pacman -Ss brightness-controller
-pacman -Ss brightness
-sudo pacman -S light
-light
-light
-man light
-light -A
-light -A 10
-light -A 10
-light -A 10
-light -A 10
-light -A 10
-light -A 10
-light -A 10
-light -A 10
-light -A 10
-light -A 10
-light
+ranger
+sxh
 clr
-cd
-ls
-tmux
-tmux a
-nv .tmux.conf 
-tmux
-man tmux
-brightnessctl 
-bright-change.sh -
--
-bright-change.sh -
 vmr
-cd script/
+cd
+cd Documents/example-dissertation/
 ls
-nv wal-change.sh 
-man feh
-nv wal-change.sh 
+nv 01-titlepage.Rmd 
+vmr
+nv 01-titlepage.Rmd 
+vmr
+nv 01-titlepage.Rmd 
+sudo R
+clr
+ls
+nv *log
+nv 01-titlepage.Rmd 
+pacman -Ss texlive-most
+sudo pacman -S texlive-most
+clr
+shutdown 0
 bsr
-echo $WALLPAPER 
-nv script/wal-change.sh 
-Pictures/backgrounds/
-ls
-sxiv *
-wal-change.sh daniel-leone-v7daTKlZzaw-unsplash.jpg 
-ls
-clr
-cd
-ls
-nv .xinitrc 
-nv script/wal-change.sh 
-Pictures/backgrounds/
-ls
-sxiv *
-wal-change.sh sam-goodgame-VkbjpDtquzI-unsplash.jpg 
-cd
-neofetch 
-nv .config/sxhkd/sxhkdrc 
-man xmodmap 
-/etc/X11/
 ls
 ls -la
-/etc/X11/xinit/xinitrc.d/
-l
-ls
-nv 40-libcanberra-gtk-module.sh 
-nv 80xapp-gtk3-module.sh 
-cd
-nv .xinitrc 
-cd
-ls
-ls -la
-nv .xinitrc 
-ls -la
-nv .xinitrc 
-.local/share/nvim/swap/
-ls
-rm %home%zooxs%.xinitrc.swp 
-cd
-nv .xinitrc 
 clr
-his
-history
-Pictures/bg
-Pictures/backgrounds/
+sudo pacman -S texlive-most
+Documents/example-dissertation/
 ls
-sxiv 
-sxiv .
+nv 01-titlepage.Rmd 
 clr
-l
 ls
-sxiv .
-wal-change.sh denis-degioanni-9wH624ALFQA-unsplash.jpg 
+zathura 01-titlepage.pdf 
 clr
-vmr
-nv .xinitrc 
-clr
-l
-which lightdm
-clr
-brightnessctl set 
-brightnessctl
-brightnessctl set 5%-
-brightnessctl set 5%-
-brightnessctl set 5%-
-brightnessctl set 5%-
-brightnessctl set 5%-
-brightnessctl set +5%
-brightnessctl set +5%
-brightnessctl set +5%
-brightnessctl set +5%
-brightnessctl set +5%
-brightnessctl set +5%
-brightnessctl set +5%
-brightnessctl set +5%
-brightnessctl set +5%
-brightnessctl set +5%
-brightnessctl set +5%
-brightnessctl set +5%
-nv .config/sxhkd/sxhkdrc 
-brightnessctl 
-brightnessctl 
+ls
+nv .Xresources 
 cl
 clr
-man brightnessctl 
+nv .bashrc 
 clr
+ls
+startx
+man thunar
+thunar
+lsblk
+lsblk
 shutdown 0
-bsa
-sxh
-sxh
-neofetch 
-ls
-mkdir development
-cd development/
-mkdir myVim
-cd myVim/
-touch test.vim
-nv test.vim 
-history | grep gitlab
-history | grep wallpapers.git
-git clone https://gitlab.com/dwt1/wallpapers.git
-ls
-llllllllllllllllllllllllllllllllls
-ls
-nv
-cd development/myVim/
-ls
-ls
-nv test.vim 
-s
-ls
-clr
-pacman -Ss torrent
-pacman -Ss transmission
-ijs --help
-sudo pacman -S transmission
-sudo pacman -S transmission
-sudo pacman -S transmission-qt
-clr
-man lightdm 
-man lightdm 
-cat /etc/lightdm/lightdm.conf 
-nv /etc/lightdm/lightdm.conf 
-clr
-shutdown 0
-nmtui
-lr
-clr
-history | grep gitlab
-git clone https://gitlab.com/dwt1/wallpapers.git
-ls
-cd wallpapers/
-ls
-nitrogen
-clr
-l
-ls
-sxiv .
-clr
-ls -la
-git status 
-..
-cd .config/polybar/co
-nv .config/polybar/config 
-nv /etc/lightdm/lightdm-gtk-greeter.conf 
-sudo nv /etc/lightdm/lightdm-gtk-greeter.conf 
-sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf 
-.config/wallpaper/
-l
-ls
-pwd
-nv .Xresources 
 nv .xinitrc 
-sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf 
-sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf 
-nv /etc/lightdm/Xsession 
-vmr
-nv /etc/lightdm/users.conf 
-nv /etc/lightdm/Xsession 
-find / -type f -name "xsession"
-sudo find / -type f -name "xsession" >> listXsession
-nv listXsession 
-rm listXsession 
-sxiv .config/wallpaper/wal.png 
 clr
-/usr/share/pixmaps/
+shutdown 0
+nv .bashrc 
+clr
+pacman -Q | grep texlive
+man etex
+man xetex 
+man xelatex
+clr
+which tty
+clr
+shutdown 0
+sudo xrdb .Xresources 
+man type
+clr
+cat .bashrc | grep xrdb
+startx
+cat .bash_aliases 
+source venv/m_apps/bin/activate
+pip list -o
+python -V
+python -m pip install -U idna
+nvr
+clr
+shutdown 0
+startx
+shutdown 0
+cd Documents/kp/pedoman/
+zathura Pedoman\ Kerja\ Praktik\ Universitas\ Pertamina\ 2018\ \(1\).pdf 
+startx
+Documents/kp
+ls
+cd pedoman
+ls
+zathura Pedoman\ Kerja\ Praktik\ Universitas\ Pertamina\ 2018\ \(1\).pdf 
+man xelatex
+pacman -Ss xelatex
+pamac search xelatex
+clr
+zathura Pedoman\ Kerja\ Praktik\ Universitas\ Pertamina\ 2018\ \(1\).pdf 
+man pdftotext 
+pdfinfo Pedoman\ Kerja\ Praktik\ Universitas\ Pertamina\ 2018\ \(1\).pdf 
+clr
+zathura Pedoman\ Kerja\ Praktik\ Universitas\ Pertamina\ 2018\ \(1\).pdf 
+..
+ls
+..
+ls
+cd example-dissertation/
+ls
+nv 05-chapter1.Rmd 
+../..
+ls
+cd Documents/kp
+l
+ls
+cd pedoman/
+ls
+zathura Pedoman\ Kerja\ Praktik\ Universitas\ Pertamina\ 2018\ \(1\).pdf 
+man pdfi
+man pdfinfo 
+man pdfto
+man pdftotext 
+pdftotext -f 14 -l 18 Pedoman\ Kerja\ Praktik\ Universitas\ Pertamina\ 2018\ \(1\).pdf pedoman.txt
+ls
+nv pedoman.txt 
+vmr
+nv pedoman.txt 
+ls
+..
+ls
+cd sections/
+ls
+touch BAB5.Rmd BAB6.Rmd
+nv ../pedoman/pedoman.txt 
+ls
+nv ../pedoman/pedoman.txt 
+crl
+ls
+ls
+clr
+ls
+.
+..
+ls
+..
+cd example-dissertation/
+ls
+nv 01-titlepage.Rmd 
+cd ../..
+l
+cd Documents/kp/
+ls
+mkdir fig
+cd fig
+cp ~/Pictures/logo/logo-univ-pertamina.png .
+ls
+cp ~/Downloads/kisspng-semen-padang-indarung-padang-cement-padang-5b49d3b213c852.061963301531564978081.png .
+l
+ls
+mv kisspng-semen-padang-indarung-padang-cement-padang-5b49d3b213c852.061963301531564978081.png logoo-seme-padang.png
+ls
+mv logoo-seme-padang.png logo-semen-padang.png
+clr
+ls
+sxiv logo-semen-padang.png 
+sxiv logo-univ-pertamina.png 
+neofetch 
+cclr
+clr
+shutdown 0
+Documents/kp/pedoman/
+ls
+zathura Pedoman\ Kerja\ Praktik\ Universitas\ Pertamina\ 2018\ \(1\).pdf 
+ls
+cd Documents/kp
+ls
+nv pedoman/pedoman.txt 
+ls
+man rm
+cd parrent/
+ls
+rm *log
+rm *tex
+l
+ls
+nv parrent.Rmd 
+clr
+..
+../example-dissertation/
+l
+ls
+nv 00-DISSERTATION.parent.Rmd 
+ls
+zathura 00-DISSERTATION.parent.pdf 
+clr
+../kp
+ls
+.
+..
+ls
+tree
+clr
+ls
+ls Music/
+rmdir Music/
+ls Templates/
+ls Videos/
+ls
+ls -la
+rmdir Templates/ Videos/
+ls
+git clone https://github.com/AnnaChirumbolo/dissertation_template_with_rmd.git
+ls
+cd dissertation_template_with_rmd/
+ls
+ls -la
+ls -l
+ls data/
+nv in
+ns introduction.Rmd 
+nv introduction.Rmd 
+nv index.md 
+nv results.Rmd 
+ls
+cd screenshots/
 ls
 ran
 ranger
+..
+../kp
 ls
-sxiv htop.png 
-ranger
-sudo cp ~/.config/wallpaper/wal.png .
-man ln
-pwd
-ls
-cd wallpapers/
-ls
-wal-change.sh 0001.jpg 
-ls
-neofetch 
+nv parrent/parrent.Rmd 
+vmr
+nv parrent/parrent.Rmd 
+cd parrent/
+nv parrent.Rmd 
+vmr
+nv parrent.Rmd 
+vmr
+nv parrent.Rmd 
 shutdown 0
-nefo
+Documents/k[
+Documents/kp
+ls
+cd parrent/
+ls
+zathura parrent.pdf 
+zathura parrent.pdf 
+ls
+ls ..
+ls ../fig/
+zathura ../pedoman/Pedoman\ Kerja\ Praktik\ Universitas\ Pertamina\ 2018\ \(1\).pdf 
+zathura parrent.pdf 
+zathura ../pedoman/Pedoman\ Kerja\ Praktik\ Universitas\ Pertamina\ 2018\ \(1\).pdf 
+zathura ../pedoman/Pedoman\ Kerja\ Praktik\ Universitas\ Pertamina\ 2018\ \(1\).pdf parrent.pdf 
+man zathura
+zathura ../pedoman/Pedoman\ Kerja\ Praktik\ Universitas\ Pertamina\ 2018\ \(1\).pdf parrent.pdf 
+zathura parrent.pdf 
+startx
+cd Documents/kp/parrent/
+ls
+zathura parrent.pdf 
+nv parrent.Rmd 
+zathura parrent.pdf 
+clr
+nv parrent.
+nv parrent.Rmd 
+ls
+zathura parrent.pdf 
+nv parrent.log 
+sudo pacman -Sy
+nv parrent.Rmd 
+zathura parrent.pdf 
+nv parrent.Rmd 
+shutdown 0
+vmr
+Documents/kp/parrent/
+ls
+zathura parrent.pdf 
+zathura parrent.pdf 
+zathura ../pedoman/Pedoman\ Kerja\ Praktik\ Universitas\ Pertamina\ 2018\ \(1\).pdf 
+zathura parrent.pdf 
 neofetch 
+clr
+zathura parrent.pdf 
+zathura ../pedoman/Pedoman\ Kerja\ Praktik\ Universitas\ Pertamina\ 2018\ \(1\).pdf 
+zathura parrent.pdf 
+zathura parrent.pdf 
+clr
+startx
+neofetch 
+Documents/kp/parrent/
+ls
+nv parrent.Rmd 
+nv parrent.Rmd 
+nv parrent.Rmd 
+vmr
+clr
+startx
+vmr
+shutdown 0
+Documents/kp/parrent/
+zathura parrent.pdf 
 nmtui
-sudo pacman -S lightdm nitrogen
-sudo pacman -S nitrogen
-sudo pacman -S lightdm
-clr
-nv /etc/lightdm/lightdm-gtk-greeter.conf 
-clr
-man nitrogen 
-nv script/wal-change.sh 
-sudo pacman -S w3m
-ranger
-sudo pacman -S ueberzug
-clr
-ranger
-neofetch 
-neofetch 
-ranger
-ranger
-ranger
-cd wallpapers/
-la
+zathura parrent.pdf 
+zathura parrent.pdf 
+zathura parrent.pdf 
+startx
+Documents/kp/parrent/
 ls
-wal-change.sh 0001.jpg 
-ranger
-ranger
-ranger
-clr
-man nitrogen 
-nv .xinitrc 
-nv script/wal-change.sh 
-cd wallpapers/
+zathura parrent.pdf 
+zathura ../pedoman/Pedoman\ Kerja\ Praktik\ Universitas\ Pertamina\ 2018\ \(1\).pdf 
+nv parrent.Rmd 
 ls
-nitrogen --set-scaled 0001.jpg 
-clr
+nv parrent.Rmd 
+nv *log
+nv parrent.Rmd 
+zathura parrent.pdf 
+nv *Rmd
+.
+..
+ls
+..
+ls
+nv example-dissertation/01-titlepage.Rmd 
+cd kp/parrent/
+nv *Rmd
+zathura parrent.pdf 
+nv *Rmd
+shutdown 0
+pip install pywalfox
+pywalfox install
+pywalfox update
+cd script/
+ls
+nv wal-change.sh 
 cd
+ranger
+pywalfox update
+nv script/wal-change.sh 
+clr
+ranger
+pywalfox update
+pywalfox update
+pywalfox
+pywalfox -p
+cd .config/
+ls
+mkdir picom
+sudo cp /etc/xdg/picom.conf picom/
+ls
+cd picom/
+ls
+ls
 ls -la
-nv .Xclients 
-man bash
-cd .config/ranger/
+nv picom.conf 
+sudo chown zooxs:zooxs picom.conf 
 ls
-ranger --copy-config=all
-ls
-ls
-nv rc.conf 
+nv picom.conf 
 clr
 cd
-nv .config/polybar/config 
-nv config1
+nv .xinitrc 
+nv .xinitrc 
 ls
-cp config1 .config/polybar/
+bsa
+qqqqqqqqqqqqqq
+clr
+Documents/kp/pedoman/
+zathura Pedoman\ Kerja\ Praktik\ Universitas\ Pertamina\ 2018\ \(1\).pdf 
+startx
+startx
+pcm
+clr
+cd Documents/kp/parrent/
 ls
-cd .config/polybar/
+nv *R
+nv *Rmd
+clr
+sxh
 ls
-cp config config.bk
-cp config1 config
-clr
-polybar example
-nv config
-clr
-clr
-cd
-nv .config/ranger/rc.conf 
-ranger
-nv .config/ranger/rc.conf 
-xprop 
-nv .config/bspwm/bspwmrc 
-clr
-sudo reboot
-nv .config/polybar/config
-cl
-clr
-/sys/class/power_supply/
+shutdown 0
+Documents/kp/parrent/
 ls
-tree
-rofi -show drun -run-shell-command ls
-rofi -run-shell-command ls
-rofi -show drun -run-shell-command ls
-rofi -show run
-rofi -show window
-rofi -show drun
+nv parrent.
+nv parrent.Rmd 
 clr
-rofi -show run -run-shell-command ls
+startx
+shutdown 0
+nmtui
+startx
+shutdown 0
+Documents/kp/
 ls
-acpi
-man acpi
-acpi -b
-acpi -c
-acpi -a
-neofetch 
-pacman -Ss teams
+ls
+ls sections/
+sudo pacman -Sy
 clr
-neofetch 
+startx
+Documents/kp/parrent/
+ls
+zathura parrent.pdf 
+ls
+..
+ls
+cd parrent/
+ls
+nv parrent.Rmd 
+zathura parrent.pdf 
 clr
-man neofetch 
-nv .config/neofetch/config.conf 
-clr
-
-nv .config/neofetch/config.conf 
-man rofi
-nv .config/rofi/config.rasi 
+zathura parrent.pdf 
+ls
+nv parrent.Rmd 
 clr
 shutdown 0
-nv .fehbg 
-nv .xinitrc 
-systemctl list-unit --type=target
-systemctl list-unit --type=target
-systemctl list-units --type=target
-systemctl get-default 
-nv .xinitrc 
-ls
-nv .fehbg 
-ls -la
-chmod +x .fehbg 
-ls -la
+pacman -Ss wps
+pamac search wps
+pamac search wps-office
+pamac build wps-office
 clr
-.fehbg
-. .fehbg 
-bash .fehbg 
-nv .xinitrc 
-sudo reboot 
-man systemctl 
-systemctl get-default 
-systemctl list-units --type=target
-sudo systemctl set-default multi-user.target
-systemctl get-default 
-lightdm-gtk-greeter-settings
-cl
-clr
-sudo systemctl disable lightdm
-sudo reboot 
+startx
+shutdown 0
+neofetch 
+startx
+Documents/kp/parrent/
 ls
+nv parrent.Rmd 
+clr
+shutdown 0
+bsr
+cat .bash_aliases 
+clr
+nv .xinitrc 
+clr
+bsr
+nv .bash_profile 
+Documents/kp/parrent/
+nv parrent.Rmd 
+Documents/kp/parrent/
+ls
+ls -la
+..
+secret-tool 
+cd sections/
+ls
+ls -la
+..
+cd parrent/
+nv parrent.Rmd 
+clr
+shutdown 0
+nmtui
+nmtui
+[B
 nmtui
 clr
-ls
+nmtui
 startx
-startxfce4 
-clr
-startx
-nv .xinitrc 
-clr
-startx
+vmr
+Documents/kp/parrent/
 ls
-nv .Xresources 
+nv parrent.Rmd 
 ls
-neofetch 
-nv .Xresources 
-xrdb .Xresources 
-nv .Xresources 
-xrdb .Xresources 
-nv .bash_profile 
+..
 ls
-rm config1 
-clr
-nv .xinitrc 
-clr
-startx
-clr
-ls
+mkdir style
+nv style/style.css
+cd parrent/
+nv parrent.Rmd 
 shutdown 0
-ls
-ls
-nv .xinitrc 
-xrdb .Xresources 
-nv .bashrc 
-nv .xinitrc 
-nv .bash_profile 
-.config/polybar/
-ls
-cp config.bk config
+startx
+Documents/kp/parrent/
+nv parrent.Rmd 
 clr
-ls
-nv config1
-nv .bashrc 
-exit
-ls
-nv .config/polybar/config
-clr
-tmux
-nv .tmux.conf 
-tmux
-nv .tmux.conf 
-tmux source-file .tmux.conf 
-tmux
-clr
-python
-python test.py 
-exit
-nv test.py 
-ls
-:q
-exit
-neww split
-man tmux
-tmux -c ls
-cd development/
-ls
-mkdir python
-cd python/
-nv test.py
-tmux
-clr
-nv test.py 
-fg
-python test.py 
-fg
-clr
+shutdown 0
+startx
+Documents/kp
 l
 ls
-tmux -h
-tmux --help
-man tmux
-tmxu neww split
-tmux neww split
-tmux
-clr
-cd
+cd tugas/
+l
 ls
-cd development/
+libreoffice uji-gradasi.ods 
+startx
+startx
+Documents/kp/parrent/
 ls
-cd python/
-ls
-nv ide.rmd
-car ide.rmd 
-cat ide.rmd 
-vmr
-nv
-clr
-cd
-sxh
-clr
-nv .bashrc 
-clr
-startx
-nv .bashrc 
-clr
-startx
-startx
-startx
-tmux source
-tmux source-file .tmux.conf 
+nv parrent.Rmd 
 shutdown 0
-ls
-ls -la
+startx
+bsr
+shutdown 0
+clr
+bsr
+clr
+startx
+shutdown 0
+shutdown 0
+startx
+startx
+cat bsa
+cat .bash_aliases 
+clr
+v .xinitrc 
+clr
+Documents/kp/parrent/
+ls 
+nv parrent.Rmd 
+clr
+shutdown 0
+startx
+nmtui

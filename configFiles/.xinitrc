@@ -6,11 +6,12 @@
 
 wal -R &
 bash $HOME/.fehbg &
+picom -b &
 # nitrogen --restore &
 
 # feh --bg-scale ~/.config/wallpaper/wal.png &
 
-# userresources=$HOME/.Xresources
+userresources=$HOME/.Xresources
 # usermodmap=$HOME/.Xmodmap
 # sysresources=/etc/X11/xinit/.Xresources
 # sysmodmap=/etc/X11/xinit/.Xmodmap

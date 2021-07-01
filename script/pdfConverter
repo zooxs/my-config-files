@@ -1,0 +1,15 @@
+#! /bin/sh
+
+path=$(pwd) 
+
+fileName=${path##*/}
+
+IFS=' ' read -r -a elements <<< "$fileName"
+
+echo $fileName | sed -e 's/\[/--/g'
+
+# for i in "${elements[@]}"
+# do
+#     echo $i
+# done
+
