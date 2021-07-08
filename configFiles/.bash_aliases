@@ -1,5 +1,6 @@
 
 alias fml="source $HOME/venv/forml/bin/activate"
+alias mbl="source $HOME/venv/m_apps/bin/activate"
 alias clr="clear"
 alias nv="nvim"
 alias v="vim"
