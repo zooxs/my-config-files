@@ -1,43 +1,3 @@
-rmdir pydrive/
-ls
-cat test.py 
-rm test.py 
-ls
-clr
-mkdir mbl-apps
-cd mbl-apps/
-ls
-mkdir simple-counnter
-ls
-cd simple-counnter/
-pwd
-man pip
-pip search time
-clr
-vmr
-ls
-nv main.py
-vmr
-nv main.py 
-python main.py 
-nv main.py 
-python main.py 
-nv main.py 
-nv main.py 
-clr
-deactivate 
-cd
-pacman -Sy mpv
-pacman -Ss mpv
-sudo pacman -Sy mpv
-clr
-Downloads/
-ls
-cd Music/
-ls
-mpv y2mate.com\ -\ Nightcore\ Japanese\ Song\ \ \ 1\ Hour.mp3 
-mpv y2mate.com\ -\ Nightcore\ Japanese\ Song\ \ \ 1\ Hour.mp3 
-clr
 shutdown 0
 startx
 mbl
@@ -498,3 +458,43 @@ ls
 nv sorting.py 
 shutdown 0
 man cut
+startx
+nmcli
+nmcli device wifi
+nmcli device wifi list
+nmcli device wifi list | sed -n '1!n'
+nmcli device wifi list | sed -n '1!'
+nmcli device wifi list | sed -n '1!p'
+nmcli device wifi list | sed -n '1!p' | cut -b 9-
+nmcli device wifi list | sed -n '1!p' | cut -b 9- | dmenu -p "Choose one: "
+nmcli device wifi list | sed -n '1!p' | cut -b 9- | dmenu -p "Choose one: " -l 20
+nmcli device wifi list | sed -n '1!p' | cut -b 9- | dmenu -p "Choose one: " -l 20 | cut -d ' ' -f1
+cd script/
+ls
+cat pdfConverter 
+nv wifi.sh
+chmod +x wifi.sh 
+clr
+wifi.sh 
+echo "" | dmenu
+echo "" | dmenu -p "Password: "
+nv wifi.sh 
+wifi.sh 
+wifi.sh 
+clr
+clr
+backup.sh 
+clr
+man dmenu
+dmenu -b
+ls | dmenu
+ls | dmenu -bl 20
+ls | dmenu -b -l 20
+ls | dmenu -b -l 20 | %
+ls | dmenu -b -l 20 | $f
+ls | dmenu -b -l 20 | bash
+nv wifi.sh 
+wifi.sh 
+clr
+shutdown 0
+clr
