@@ -139,3 +139,7 @@ XF86AudioMute
 # browser
 super + alt + w
 	firefox
+
+# open script file
+shift + l
+	ls ~/script/ | dmenu -b -p 'Choose one: ' -l 10 | bash

@@ -1,12 +1,3 @@
-shutdown 0
-startx
-mbl
-development/python/mbl-apps/simple-counnter/
-ls
-nv main.py 
-python main.py 
-nv main.py 
-python main.py 
 nv main.py 
 python main.py 
 nv main.py 
@@ -498,3 +489,12 @@ wifi.sh
 clr
 shutdown 0
 clr
+man urxvt
+$TERM
+$TERMINAL
+manurxvt
+man urxvt
+ urxvt -e sh -c "ls ~/script/ | dmenu -b -p "Choose o    ne: " -l 10 | bash
+
+bash
+ urxvt -e sh -c "ls ~/script/ | dmenu -b -p "Choose o    ne: " -l 10 | bash"
