@@ -135,11 +135,15 @@ XF86AudioMute
 	pamixer -t
 
 # screenshoot control
+Print 
+	scrot 'shoot-%Y-%m-%d_$wx$h.png' -e 'mv $f ~/Pictures/shoots/'
 
+shift + Print
+	scrot -s $(exec | dmenu -b -p "Insert the name: " -l 10).png -e 'mv $f ~/Pictures/shoots/'
 # browser
 super + alt + w
 	firefox
 
 # open script file
-shift + l
-	ls ~/script/ | dmenu -b -p 'Choose one: ' -l 10 | bash
+# super + alt + s
+# nvim $(ls ~/script/ | dmenu -b -p 'Choose one: ' -l 10)	

@@ -1,353 +1,3 @@
-nv main.py 
-python main.py 
-nv main.py 
-python main.py 
-nv main.py 
-clr
-shutdown 0
-nmtui
-development/python/mbl-apps/simple-counnter/
-ls
-cat main.py 
-touch my.kv
-clr
-nv main.py my.kv 
-mbl
-nv main.py my.kv 
-python main.py 
-nv my.kv 
-python main.py 
-startx
-shutdown 0
-startx
-development/python/mbl-apps/
-ls
-cd simple-counnter/
-ls
-nv my.kv 
-mbl
-python main.py 
-nmtui
-nv main.py my.kv 
-vmr
-nv main.py my.kv 
-vmr
-nv main.py my.kv 
-python main.py 
-nv ~/venv/m_apps/lib/python3.9/site-packages/kivy/lang/parser.py 
-clr
-shutdown 0
-nv venv/m_apps/lib/python3.9/site-packages/kivy/lang/parser.py 
-clr
-development/python/mbl-apps/simple-counnter/
-ls
-mbl
-python main.py 
-nv my.kv 
-python main.py 
-vmr
-source /home/zooxs/venv/m_apps/bin/activate
-/home/zooxs/venv/m_apps/bin/activate /home/zooxs/development/python/mbl-apps/simple-counnter/main.py
-clr
-deactivate 
-mbl
-python main.py 
-python main.py 
-nmtui
-nmtui
-exit
-startx
-vmr
-development/python/mbl-apps/simple-counnter/
-mbl
-nv my.kv 
-python main.py 
-nv my.kv 
-clr
-code .
-python main.py 
-clr
-vmr
-nv ~/venv/m_apps/lib/python3.9/site-packages/kivy/lang/parser.py 
-vmr
-nv my.kv 
-python main.py 
-clr
-lsblk
-shutdown 0
-nmtui
-startx
-Documents/kp/parrent/
-ls
-nv parrent.Rmd 
-nv template.tex
-nv parrent.Rmd 
-nv parrent.Rmd 
-ls
-zathura parrent.pdf 
-rm parrent.pdf 
-nv parrent.Rmd 
-ls
-nv parrent.log 
-nv parrent.tex 
-nv parrent.Rmd 
-clr
-shutdown 0
-shutdown 0
-startx
-startx
-sudo pacman -Sy
-shutdown 0
-neofetch 
-lsblk
-fdisk -l
-sudo fdisk -l
-startx
-Documents/kp/sections/
-ls
-nv BAB1.Rmd 
-nv BAB2.Rmd 
-..
-cd pedoman/
-ls
-zathura Ridho\ Darman-2018-06-26.pdf 
-zathura Laporan\ Kerja\ Praktik-Farindra\ Safriska\ Irzani\ 104116048.pdf 
-Downloads/Music/
-ls
-mpv y2mate.com\ -\ Nightcore\ Japanese\ Song\ \ \ 1\ Hour.mp3 
-shutdown 0
-startx
-clr
-shutdown 0
-sudo pacman -Sy
-clr
-ranger
-Documents/kp/parrent/
-nv parrent.rmd 
-vmr
-pdfinfo 1\ SemenPortlandBKT\ \(1\).pdf 
-ranger
-startx
-Documents/kp/parrent/
-nv parrent.rmd 
-zathura parrent.pdf 
-nv parrent.rmd 
-vmr
-shutdown 0
-startx
-shutdown 0
-clr
-ls
-startx
-neofetch 
-shutdown 0
-pacman -Ss adb
-adb
-man adb
-adb --help
-clr
-sudo pacman -Sy
-man simple-mtpfs
-sudo pacman -S simple-mtpfs
-pamac search simple-mtpfs
-pamac build simple-mtpfs
-man simple-mtpfs 
-simple-mtpfs -l
-clr
-script/
-ls
-pacman -Ss bluetooth
-startx
-shutdown 0
-neofetch 
-startx
-cp ~/Downloads/198-700-1-PB.pdf .
-ls
-za 198-700-1-PB.pdf 
-zathura 198-700-1-PB.pdf 
-cp ~/Downloads/SNI_7064-2014.pdf .
-ls
-clr
-shutdown 0
-clr
-pip list | grep pybluez
-pacman -Q | grep bluetooth
-pacman -Ss  bluetooth
-backup.sh 
-clr
-ifconfig
-pacman -Ss ifconfig
-pamac search ifconfig
-neofetch 
-startx
-Documents/kp/
-ls
-cd sections/
-ls
-tree
-man tree
-tree -f
-..
-tree -f
-clr
-shutdown 0
-startx
-man firefox
-sudo pacman -Sy
-clr
-shutdown 0
-startx
-Documents/kp/sections/
-nv BAB3.rmd 
-shutdown 0
-startx
-Documents/kp/sections/
-nv BAB3.rmd 
-shutdown 0
-Dow
-ls
-Downloads/
-ls
-cd
-cd development/
-ls
-cd python/
-ls
-mkdir sotring
-cd sotring/
-cp ~/Downloads/FORNAS\ RS\ MULYA.xlsx .
-;s
-ls
-startx
-development/python/sotring/
-ls
-nv data.csv 
-clr
-ls
-cat data.csv 
-cat data.csv | grep -E '^[a-z]. '
-cat data.csv | grep -E '^*[a-z]. '
-cat data.csv | grep -E '^[,"][a-z]. '
-clr
-python
-pip install pandas
-nv sorting.py
-nv data.csv 
-nv sorting.py 
-cat data.csv | grep -E '^[,"][a-z]. '
-cat data.csv | grep -E '^[,][a-z]. '
-cat data.csv | grep -E '^[a-z]. '
-cat data.csv | grep -E '^[a-z]. *'
-
-cat data.csv | grep -E '^[|"][a-z]. *'
-cat data.csv | grep -E '^*[a-z]. *'
-cat data.csv | grep -E '^*[a-z]{1}. *'
-cat data.csv | grep -E '^[a-z]{1}. *'
-cat data.csv | grep -E '^[a-z]. *'
-cat data.csv | grep -E '^[a-z]. '
-grep -E '^[a-z]. ' data.csv 
-nv sorting.py 
-grep -E '^[a-z]. ' data.csv 
-grep -E '^"[a-z]. ' data.csv 
-sed 's/"/--/g' data.csv 
-sed 's/"//g' data.csv 
-sed 's/"//g' data.csv > data1.csv
-ls
-grep -E '^"[a-z]. ' data1.csv 
-grep -E '^[a-z]. ' data.csv | wc-l
-grep -E '^[a-z]. ' data.csv | wc -l
-grep -E '^[a-z]. ' data1.csv | wc -l
-grep -E '^"[a-z]. ' data.csv | wc -l
-clr
-nv sorting.py 
-cat data1.csv 
-man sort
-sort data1.csv 
-clr
-shutdown 0
-startx
-man cut
-man grep
-development/python/
-ls
-cd sotring/
-ls
-rm FORNAS\ RS\ MULYA.xlsx 
-grep -E '^"[a-z]. ' data.csv | wc -l
-grep -E '^[a-z]. ' data1.csv
-grep -nE '^[a-z]. ' data1.csv
-grep -nE '^[a]. ' data1.csv
-grep -nE '^[a]. ' data1.csv | cut -d : -f 1
-shutdown 0
-development/python/sotring/
-. sorting.sh data1.csv 
-. sorting.sh data1.csv 
-grep -nE '^[a-z]. ' data1.csv | cut -d : -f 1
-grep -nE '^[a-z]. ' data1.csv
-nv data1.csv 
-grep -nE '^[a-z]. ' data1.csv
-startx
-development/python/sotring/
-ls
-grep -nE '^[a]. ' data1.csv | cut -d : -f 1
-rm sorting.py 
-nv sorting.sh
-chmod +x sorting.sh 
-ls -la
-sortin.sh 
-. sortin.sh data1.csv 
-. sorting.sh 
-. sortin.sh data1.csv 
-nv sorting.sh 
-. sortin.sh data1.csv 
-. sorting.sh data1.csv 
-sorting.sh data1.csv 
-. sorting.sh data1.csv 
-clr
-nv sorting.sh 
-. sorting.sh data1.csv 
-nv sorting.sh 
-shutdown 0
-nmtui
-startx
-adb devices 
-adb devices -L
-adb devices -l
-man adb
-adb -h
-adb
-adb -d
-clr
-adb devices -l
-adb shell ls
-adb start-server 
-adb devices -l
-adb shell ls
-sudo adb shell ls
-adb devices -l
-adb
-clr
-adb
-adb get-state 
-sudo adb get-state 
-clr
-adb devices 
-adb devices 
-adb devices -l
-adb shell ls
-adb shell
-adb kill-server 
-sudo adb start-server
-adb devices -l
-adb shell ls
-adb shell ls sdcard
-adb shell ls
-adb shell ls storage/sdcard0
-adb shell ls storage/sdcard1
-adb shell ls storage/sdcard1/DCIM/
-adb shell ls storage/sdcard1/DCIM/Camera/
-cd Pictures/
-ls
 adb pull storage/sdcard1/DCIM/Camera .
 ls
 ranger
@@ -498,3 +148,353 @@ man urxvt
 
 bash
  urxvt -e sh -c "ls ~/script/ | dmenu -b -p "Choose o    ne: " -l 10 | bash"
+startx
+dmenu -b
+dmenu_run -b
+clr
+sxh
+cd script/
+ls
+cat backup.sh 
+echo "(1 2 3 4)" | dmenu -b -p "Choose one: " -l 10
+ls | dmenu -b -p "Choose one: " -l 10
+ls | dmenu -b -p "Choose one: " -l 10 | bash
+sxh
+ls | dmenu_run -b -p "Choose one: " -l 10 | bash
+ls | dmenu -b -p "Choose one: " -l 10 | bash
+man urxvt
+sxh
+clr
+sxh
+shutdown 0
+man sxiv
+ranger
+Documents/kp/sections/
+ls
+nv BAB3.rmd 
+shutdown 0
+startx
+wifi.sh 
+clr
+killall dunst
+dunst
+sxiv
+dzf
+fzf
+clr
+Pictures/backgrounds/
+ls
+sxiv wallhaven-8oev1j.jpg 
+wal-change.sh wallhaven-8oev1j.jpg 
+clr
+ls
+ranger
+clr
+pacman -Ss fzf
+sudo pacman -S fzf
+man fzf
+pacman -Ss fzd
+fzf
+fzf | sxiv
+clr
+man sxiv
+sxiv .
+pacman -Ss dunst
+sxh
+clr
+pacman -S dunst libnotify
+sudo pacman -S dunst libnotify
+clr
+notify-send "ls" "lsls"
+Pictures/backgrounds/
+ranger
+clr
+neofetch 
+clr
+neofetch --ascii_distro ubuntu
+neofetch --ascii_distro manjaro
+clr
+man neofetch 
+ls
+ranger
+neofetch --w3m wallhaven-0p88ve.jpg 
+clr
+s
+ls
+ranger
+startx
+clr
+startx
+clr
+startx
+clr
+dmenu_run 
+fzf
+clr
+shutdown 0
+Documents/kp/parrent/
+ls
+nv parrent.rmd 
+zathura parrent.pdf 
+clr
+..
+ls
+man sxiv
+cd sections/
+nv BAB3.rmd 
+zathura ../parrent/parrent.pdf 
+nv BAB2.rmd 
+nv ../parrent/parrent.rmd 
+zathura ../parrent/parrent.pdf 
+nv BAB3.rmd 
+startx
+shutdown 0
+development/python/sotring/
+ls
+nv sorting.sh 
+sorting.sh
+. sorting.sh
+clr
+l
+ls 
+nv sorting.sh 
+. sorting data1.csv 
+. sorting.sh data1.csv 
+nmcli device wifi
+nmtui
+seq 5
+seq 5-10
+seq 5 10
+man grep
+clr
+nv sorting.sh 
+cp sorting.sh ~/script/
+clr
+ls
+rm sorting.sh 
+clr
+sorting.sh data1.csv 
+sorting.sh data1.csv 
+sorting.sh data1.csv 
+clr
+sorting.sh data1.csv 
+sorting.sh data1.csv 
+man mapfile
+clr
+bash -V
+bash --version
+clr
+pacman -S mapfile
+pacman -Ss mapfile
+sorting.sh data1.csv 
+man grep
+man cat
+cut -n data1.csv 
+cut -n 0 data1.csv 
+cut -n 1 data1.csv 
+cat -n data1.csv 
+cat -n 0 data1.csv 
+clr
+man cat
+man grep
+sorting.sh data1.csv 
+index
+index=(1 2 3 4)
+echo $index
+echo $index[1]
+echo ${index[1]}
+man head
+clr
+sorting.sh data1.csv 
+man sortin.sh
+nv script/sorting.sh 
+nv script/backup.sh 
+nv script/pdfConverter 
+nv script/sorting.sh 
+startx
+development/python/sotring/
+sorting.sh data1.csv 
+sorting.sh data1.csv 
+man cut
+man cat
+sed '1p' data1.csv 
+sed 1p data1.csv 
+sed -n 1p data1.csv 
+sed -n 4p data1.csv 
+sed -n {4-1}p data1.csv 
+sed -n $eval(4-1)p data1.csv 
+man eval
+sed -n $(expr 4 - 1)p data1.csv 
+sorting.sh data1.csv 
+sorting.sh data1.csv 
+sorting.sh data1.csv 
+sorting.sh data1.csv 
+sorting.sh data1.csv 
+clr
+man seq
+sorting.sh data1.csv 
+sorting.sh data1.csv 
+sorting.sh data1.csv 
+sorting.sh data1.csv 
+clr
+sorting.sh data1.csv 
+sorting.sh data1.csv 
+sorting.sh data1.csv 
+man grep
+grep -E '^[a-z]. ' data1.csv 
+grep -vE '^[a-z]. ' data1.csv 
+grep -vE '^[a-z]. ' data1.csv | sort
+grep -vE '^[a-z]. ' data1.csv | sort | sed '15i awkwkwkwkwk'
+grep -vE '^[a-z]. ' data1.csv | sort | sed '15i +++++++++++++'
+grep -vE '^[a-z]. ' data1.csv | sort | sed '15,16,17i +++++++++++++'
+man sed
+clr
+ls
+nv data1.csv 
+clr
+sxh
+shutdown 0
+ls
+ls
+clr
+clr
+ls
+l
+nv
+exit
+find . -type f -name "IMG*"
+Pictures/Camera/
+ls
+sxiv
+clr
+ls
+find . -type f -name "*202107*"
+sxiv $(find . -type f -name "*202107*")
+sxiv $(find . -type f -name "*202106*")
+sxiv $(find . -type f -name "*202107*")
+man nmcli
+nmcli status
+man nmcli
+nmcli general status 
+nmtui
+nv
+clr
+Documents/kp/sections/
+nv BAB3.rmd 
+shutdown 0
+startx
+startx
+nmtui
+s
+cd script/
+s
+ls
+ls | dmenu -b -p "Script file: " -l 20 
+ls | dmenu -b -p "Script file: " -l 20 | nvim
+nvim $(ls | dmenu -b -p "Script file: " -l 20)
+dmenu
+nvim $(ls | dmenu -b -p "Script file: " -l 20)
+nvim $(ls | dmenu -b -p "Script file: " -l 20)
+echo "yes;no" | dmenu -b -p "Are you sure to shutdown? " -l 20
+ls | dmenu -b -p "Are you sure to shutdown? " -l 20
+cd
+ls | dmenu -b -p "Are you sure to shutdown? " -l 20
+cd $(ls | dmenu -b -p "Script file: " -l 20)
+ls
+clr
+..
+ranger $(ls | dmenu -b -p "Script file: " -l 20)
+nvim $(ls ~/.config/ | dmenu -b -p "Script file: " -l 20)
+nvim $(ls ~/.config/ | dmenu -b -p "Script file: " -l 20)
+nvim $(find ~/.config/ -type f *| dmenu -b -p "Script file: " -l 20)
+history | grep find
+nvim $(find ~/.config/ -type f -name *| dmenu -b -p "Script file: " -l 20)
+find .
+clr
+nvim $(find ~/.config/ -type f | dmenu -b -p "Script file: " -l 20)
+nvim $(find ~/.config/ -type f | dmenu -b -p "Script file: " -l 10)
+nvim $(find ~/.config/ -type f | dmenu -b -p "Script file: " -l 10)
+dmenu_run -b -l 20
+nvim $(find ~/.config/ -type f | dmenu -b -p "Config file: " -l 10)
+man dmenu
+vi
+nvim $(find ~/Document/kp/ -type f | dmenu -b -p "Config file: " -l 10)
+nvim $(find ~/Documents/kp/ -type f | dmenu -b -p "Config file: " -l 10)
+nvim $(find ~/Documents/kp/ -type f -name "*rmd"| dmenu -b -p "Config file: " -l 10)
+info
+Pictures/Camera/
+ls
+file IMG_20210709_152624.jpg 
+file IMG_20210709_152624.jpg | tr 
+file IMG_20210709_152624.jpg | tr ,
+file IMG_20210709_152624.jpg | tr , \n
+file IMG_20210709_152624.jpg | tr , '\n'
+du -sh IMG_20210709_152624.jpg
+clr
+cd
+sxh
+shutdown 0
+man scrot
+sxh
+ls | dmenu -l 20
+dmenu -l 20
+Pictures/shoots/
+ls
+pwd
+ls
+startx
+dmenu -b -p 'Enter the name: ' -l 10 | echo
+echo $(dmenu -b -p 'Enter the name: ' -l 10)
+echo $(read | dmenu -b -p 'Enter the name: ' -l 10)
+echo $(dmenu_run -b -p 'Enter the name: ' -l 10)
+echo <  dmenu -b -p 'Enter the name: ' -l 10
+echo $(dmenu_run -b -p 'Enter the name: ' -l 10)
+echo <  dmenu -b -p 'Enter the name: ' -l 10
+echo $(dmenu -b -p 'Enter the name: ' -l 10)
+man dmenu
+echo $(dmenu -fbp 'Enter the name: ' -l 10)
+echo $(dmenu -bfp 'Enter the name: ' -l 10)
+echo $(dmenu -bf -p 'Enter the name: ' -l 10)
+echo $(dmenu -b -f -p 'Enter the name: ' -l 10)
+clr
+nmtui
+read
+ehcho "$ksks"
+echo "$ksks"
+man read
+echo
+clr
+read ksksk
+echo $ksksk
+echo $(ksksk)
+echo ${ksksk}
+clr
+read name | dmenu -b -p "Insert the name: " -l 10
+read | dmenu -b -p "Insert the name: " -l 10
+man prompt
+man promp
+man prom
+man pro
+clr
+eval
+man eval
+man read
+sudo pacman -Sy
+clr
+man exec
+exec | dmenu -b -p "Insert the name: " -l 10
+scrot -s '$(exec | dmenu -b -p "Insert the name: " -l 10).png'
+ls
+rm *png
+s
+ls
+clr
+scrot -s $(exec | dmenu -b -p "Insert the name: " -l 10).png 
+ls
+sxiv test.png 
+rm test.png 
+sxiv
+sxh
+sxiv Pictures/shoots/test1.png 
+clr
+shutdown 0
