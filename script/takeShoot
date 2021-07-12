@@ -1,0 +1,3 @@
+#! /bin/sh
+
+scrot -s $(exec | dmenu -b -p "Insert the name: ").png

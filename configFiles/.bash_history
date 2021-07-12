@@ -1,479 +1,3 @@
-adb pull storage/sdcard1/DCIM/Camera .
-ls
-ranger
-adb shell ls storage/sdcard1/
-adb shell du storage/sdcard1/
-adb shell du -sh storage/sdcard1/
-cd
-ls
-ls backup/
-mkdir android
-cd android/
-ls
-mkdir backup
-ls
-cd backup/
-ls
-clr
-adb pull storage/sdcard1/ .
-ls
-cd sdcard1/
-ls
-ls -la
-clr
-cd
-adb shell du -sh storage/sdcard0/
-adb shell ls
-adb shell ls root
-sudo adb shell ls root
-adb root shell ls root
-adb root
-clr
-adb shell ls
-adb shell du -sh sdcard
-adb shell du -sh storage
-du -sh Pictures/Camera/
-du -sh android/
-adb shell du -sh storage/self/primary
-adb shell du -sh storage/sdcard0
-adb shell du -sh storage/sdcard0/
-adb shell ls storage/sdcard0/
-adb shell ls storage/sdcard0/DCIM/
-adb shell du -sh storage/sdcard0/DCIM/
-adb shell ls storage/sdcard0/
-adb shell ls storage/sdcard0/Android/
-adb shell du -sh storage/sdcard0/Android/
-adb kill-server 
-adb devices -l
-shutdown 0
-startx
-nmtui
-netstat
-ping
-ifconfig
-ip
-ip link show
-nmcli
-nmcli devices status
-nmcli device status
-nmcli connection show 
-clr
-development/python/sotring/
-ls
-nv data1.csv 
-nv sorting.py
-nv data1.csv 
-nv sorting.py 
-nv sorting.
-nv data1.csv 
-sed 's/^*,*/--/g' data1.csv 
-sed 's/^*,/--/g' data1.csv 
-clr
-nv data1.csv 
-nv sorting.py 
-python sorting.py 
-clr
-nmcli connection show 
-man adb
-adb --help
-clr
-adb devices -l
-adb start-server 
-adb devices -l
-adb connect 
-adb devices -l
-adb start-server 
-adb devices -l
-adb kill-server 
-adb start-server 
-adb devices -l
-adb devices -l
-clr
-adb kill-server 
-adb kill-server 
-adb start-server 
-adb devices -l
-adb kill-server 
-clr
-ls
-nv sorting.py 
-shutdown 0
-man cut
-startx
-nmcli
-nmcli device wifi
-nmcli device wifi list
-nmcli device wifi list | sed -n '1!n'
-nmcli device wifi list | sed -n '1!'
-nmcli device wifi list | sed -n '1!p'
-nmcli device wifi list | sed -n '1!p' | cut -b 9-
-nmcli device wifi list | sed -n '1!p' | cut -b 9- | dmenu -p "Choose one: "
-nmcli device wifi list | sed -n '1!p' | cut -b 9- | dmenu -p "Choose one: " -l 20
-nmcli device wifi list | sed -n '1!p' | cut -b 9- | dmenu -p "Choose one: " -l 20 | cut -d ' ' -f1
-cd script/
-ls
-cat pdfConverter 
-nv wifi.sh
-chmod +x wifi.sh 
-clr
-wifi.sh 
-echo "" | dmenu
-echo "" | dmenu -p "Password: "
-nv wifi.sh 
-wifi.sh 
-wifi.sh 
-clr
-clr
-backup.sh 
-clr
-man dmenu
-dmenu -b
-ls | dmenu
-ls | dmenu -bl 20
-ls | dmenu -b -l 20
-ls | dmenu -b -l 20 | %
-ls | dmenu -b -l 20 | $f
-ls | dmenu -b -l 20 | bash
-nv wifi.sh 
-wifi.sh 
-clr
-shutdown 0
-clr
-man urxvt
-$TERM
-$TERMINAL
-manurxvt
-man urxvt
- urxvt -e sh -c "ls ~/script/ | dmenu -b -p "Choose o    ne: " -l 10 | bash
-
-bash
- urxvt -e sh -c "ls ~/script/ | dmenu -b -p "Choose o    ne: " -l 10 | bash"
-startx
-dmenu -b
-dmenu_run -b
-clr
-sxh
-cd script/
-ls
-cat backup.sh 
-echo "(1 2 3 4)" | dmenu -b -p "Choose one: " -l 10
-ls | dmenu -b -p "Choose one: " -l 10
-ls | dmenu -b -p "Choose one: " -l 10 | bash
-sxh
-ls | dmenu_run -b -p "Choose one: " -l 10 | bash
-ls | dmenu -b -p "Choose one: " -l 10 | bash
-man urxvt
-sxh
-clr
-sxh
-shutdown 0
-man sxiv
-ranger
-Documents/kp/sections/
-ls
-nv BAB3.rmd 
-shutdown 0
-startx
-wifi.sh 
-clr
-killall dunst
-dunst
-sxiv
-dzf
-fzf
-clr
-Pictures/backgrounds/
-ls
-sxiv wallhaven-8oev1j.jpg 
-wal-change.sh wallhaven-8oev1j.jpg 
-clr
-ls
-ranger
-clr
-pacman -Ss fzf
-sudo pacman -S fzf
-man fzf
-pacman -Ss fzd
-fzf
-fzf | sxiv
-clr
-man sxiv
-sxiv .
-pacman -Ss dunst
-sxh
-clr
-pacman -S dunst libnotify
-sudo pacman -S dunst libnotify
-clr
-notify-send "ls" "lsls"
-Pictures/backgrounds/
-ranger
-clr
-neofetch 
-clr
-neofetch --ascii_distro ubuntu
-neofetch --ascii_distro manjaro
-clr
-man neofetch 
-ls
-ranger
-neofetch --w3m wallhaven-0p88ve.jpg 
-clr
-s
-ls
-ranger
-startx
-clr
-startx
-clr
-startx
-clr
-dmenu_run 
-fzf
-clr
-shutdown 0
-Documents/kp/parrent/
-ls
-nv parrent.rmd 
-zathura parrent.pdf 
-clr
-..
-ls
-man sxiv
-cd sections/
-nv BAB3.rmd 
-zathura ../parrent/parrent.pdf 
-nv BAB2.rmd 
-nv ../parrent/parrent.rmd 
-zathura ../parrent/parrent.pdf 
-nv BAB3.rmd 
-startx
-shutdown 0
-development/python/sotring/
-ls
-nv sorting.sh 
-sorting.sh
-. sorting.sh
-clr
-l
-ls 
-nv sorting.sh 
-. sorting data1.csv 
-. sorting.sh data1.csv 
-nmcli device wifi
-nmtui
-seq 5
-seq 5-10
-seq 5 10
-man grep
-clr
-nv sorting.sh 
-cp sorting.sh ~/script/
-clr
-ls
-rm sorting.sh 
-clr
-sorting.sh data1.csv 
-sorting.sh data1.csv 
-sorting.sh data1.csv 
-clr
-sorting.sh data1.csv 
-sorting.sh data1.csv 
-man mapfile
-clr
-bash -V
-bash --version
-clr
-pacman -S mapfile
-pacman -Ss mapfile
-sorting.sh data1.csv 
-man grep
-man cat
-cut -n data1.csv 
-cut -n 0 data1.csv 
-cut -n 1 data1.csv 
-cat -n data1.csv 
-cat -n 0 data1.csv 
-clr
-man cat
-man grep
-sorting.sh data1.csv 
-index
-index=(1 2 3 4)
-echo $index
-echo $index[1]
-echo ${index[1]}
-man head
-clr
-sorting.sh data1.csv 
-man sortin.sh
-nv script/sorting.sh 
-nv script/backup.sh 
-nv script/pdfConverter 
-nv script/sorting.sh 
-startx
-development/python/sotring/
-sorting.sh data1.csv 
-sorting.sh data1.csv 
-man cut
-man cat
-sed '1p' data1.csv 
-sed 1p data1.csv 
-sed -n 1p data1.csv 
-sed -n 4p data1.csv 
-sed -n {4-1}p data1.csv 
-sed -n $eval(4-1)p data1.csv 
-man eval
-sed -n $(expr 4 - 1)p data1.csv 
-sorting.sh data1.csv 
-sorting.sh data1.csv 
-sorting.sh data1.csv 
-sorting.sh data1.csv 
-sorting.sh data1.csv 
-clr
-man seq
-sorting.sh data1.csv 
-sorting.sh data1.csv 
-sorting.sh data1.csv 
-sorting.sh data1.csv 
-clr
-sorting.sh data1.csv 
-sorting.sh data1.csv 
-sorting.sh data1.csv 
-man grep
-grep -E '^[a-z]. ' data1.csv 
-grep -vE '^[a-z]. ' data1.csv 
-grep -vE '^[a-z]. ' data1.csv | sort
-grep -vE '^[a-z]. ' data1.csv | sort | sed '15i awkwkwkwkwk'
-grep -vE '^[a-z]. ' data1.csv | sort | sed '15i +++++++++++++'
-grep -vE '^[a-z]. ' data1.csv | sort | sed '15,16,17i +++++++++++++'
-man sed
-clr
-ls
-nv data1.csv 
-clr
-sxh
-shutdown 0
-ls
-ls
-clr
-clr
-ls
-l
-nv
-exit
-find . -type f -name "IMG*"
-Pictures/Camera/
-ls
-sxiv
-clr
-ls
-find . -type f -name "*202107*"
-sxiv $(find . -type f -name "*202107*")
-sxiv $(find . -type f -name "*202106*")
-sxiv $(find . -type f -name "*202107*")
-man nmcli
-nmcli status
-man nmcli
-nmcli general status 
-nmtui
-nv
-clr
-Documents/kp/sections/
-nv BAB3.rmd 
-shutdown 0
-startx
-startx
-nmtui
-s
-cd script/
-s
-ls
-ls | dmenu -b -p "Script file: " -l 20 
-ls | dmenu -b -p "Script file: " -l 20 | nvim
-nvim $(ls | dmenu -b -p "Script file: " -l 20)
-dmenu
-nvim $(ls | dmenu -b -p "Script file: " -l 20)
-nvim $(ls | dmenu -b -p "Script file: " -l 20)
-echo "yes;no" | dmenu -b -p "Are you sure to shutdown? " -l 20
-ls | dmenu -b -p "Are you sure to shutdown? " -l 20
-cd
-ls | dmenu -b -p "Are you sure to shutdown? " -l 20
-cd $(ls | dmenu -b -p "Script file: " -l 20)
-ls
-clr
-..
-ranger $(ls | dmenu -b -p "Script file: " -l 20)
-nvim $(ls ~/.config/ | dmenu -b -p "Script file: " -l 20)
-nvim $(ls ~/.config/ | dmenu -b -p "Script file: " -l 20)
-nvim $(find ~/.config/ -type f *| dmenu -b -p "Script file: " -l 20)
-history | grep find
-nvim $(find ~/.config/ -type f -name *| dmenu -b -p "Script file: " -l 20)
-find .
-clr
-nvim $(find ~/.config/ -type f | dmenu -b -p "Script file: " -l 20)
-nvim $(find ~/.config/ -type f | dmenu -b -p "Script file: " -l 10)
-nvim $(find ~/.config/ -type f | dmenu -b -p "Script file: " -l 10)
-dmenu_run -b -l 20
-nvim $(find ~/.config/ -type f | dmenu -b -p "Config file: " -l 10)
-man dmenu
-vi
-nvim $(find ~/Document/kp/ -type f | dmenu -b -p "Config file: " -l 10)
-nvim $(find ~/Documents/kp/ -type f | dmenu -b -p "Config file: " -l 10)
-nvim $(find ~/Documents/kp/ -type f -name "*rmd"| dmenu -b -p "Config file: " -l 10)
-info
-Pictures/Camera/
-ls
-file IMG_20210709_152624.jpg 
-file IMG_20210709_152624.jpg | tr 
-file IMG_20210709_152624.jpg | tr ,
-file IMG_20210709_152624.jpg | tr , \n
-file IMG_20210709_152624.jpg | tr , '\n'
-du -sh IMG_20210709_152624.jpg
-clr
-cd
-sxh
-shutdown 0
-man scrot
-sxh
-ls | dmenu -l 20
-dmenu -l 20
-Pictures/shoots/
-ls
-pwd
-ls
-startx
-dmenu -b -p 'Enter the name: ' -l 10 | echo
-echo $(dmenu -b -p 'Enter the name: ' -l 10)
-echo $(read | dmenu -b -p 'Enter the name: ' -l 10)
-echo $(dmenu_run -b -p 'Enter the name: ' -l 10)
-echo <  dmenu -b -p 'Enter the name: ' -l 10
-echo $(dmenu_run -b -p 'Enter the name: ' -l 10)
-echo <  dmenu -b -p 'Enter the name: ' -l 10
-echo $(dmenu -b -p 'Enter the name: ' -l 10)
-man dmenu
-echo $(dmenu -fbp 'Enter the name: ' -l 10)
-echo $(dmenu -bfp 'Enter the name: ' -l 10)
-echo $(dmenu -bf -p 'Enter the name: ' -l 10)
-echo $(dmenu -b -f -p 'Enter the name: ' -l 10)
-clr
-nmtui
-read
-ehcho "$ksks"
-echo "$ksks"
-man read
-echo
-clr
-read ksksk
-echo $ksksk
-echo $(ksksk)
-echo ${ksksk}
-clr
-read name | dmenu -b -p "Insert the name: " -l 10
-read | dmenu -b -p "Insert the name: " -l 10
-man prompt
-man promp
-man prom
 man pro
 clr
 eval
@@ -498,3 +22,479 @@ sxh
 sxiv Pictures/shoots/test1.png 
 clr
 shutdown 0
+sxh
+ranger
+cd script/
+ls
+cat test 
+cp test test1
+nv test1
+cat test1 | dmenu -b -p "Choose one: " -l 10
+nv test1
+echo "yes\no"
+echo "yes\nno"
+echo "yes \n no"
+echo "yes \ no"
+\
+clr
+echo yes|no
+echo yes
+cd
+Documents/kp/sections/
+ls
+cat BAB4.rmd 
+cat BAB3.rmd 
+clr
+nv BAB3.rmd 
+ls
+cd
+ls Pictures/shoots/
+clr
+cd script/
+ls
+backup.sh 
+clr
+cat test
+nv backup.sh 
+ls
+vn bright-change.sh 
+nv bright-change.sh 
+nv sorting.sh 
+nv wal-change.sh 
+nv wifi.sh 
+rm test1
+clr
+l
+ls
+nv takeShoot
+chmod +x takeShoot 
+takeShoot 
+nv takeShoot
+ls
+takeShoot 
+clr
+nv takeShoot 
+nvim
+vim
+cd
+ls
+ls
+ls
+ls
+l
+sl
+sl
+s
+ls
+ls
+l
+python
+fml
+clr
+ls -la
+ranger
+ls .local/share/
+ls
+ranger
+man mv
+ls
+ls
+lsblk
+usb
+sudo mount /dev/sdc1 /media/usb/
+cd Documents/
+ls
+cd Documents/
+ls
+sudo umount /media/usb/
+sudo mount /dev/sdc1 /media/usb/
+sudo cp Laporan_KP_Semen_Padang.docx /media/usb/personal/kp/
+sudo umount /media/usb/
+clr
+ls -la
+ls .config/
+mkdir .config/bspwm
+mkdir .config/sxhdk
+clr
+sudo mount /dev/sdc1 /media/usb/
+sudo umount /media/usb/
+sudo mount /dev/sdc1 /media/usb/
+cd Documents/Documents/
+ls
+sudo cp Laporan_KP_Semen_Padang.docx /media/usb/personal/kp/
+ls /media/usb/personal/kp/
+sudo cp Laporan_KP_Semen_Padang.docx /media/usb/personal/kp/
+ls /media/usb/personal/kp/
+clr
+sudo umount /media/usb/
+clr
+ls
+startx
+clr
+startxfce4 
+sudo pacman -Sy
+lblks
+lsblk
+sudo mount /dev/sdb1 /media/hdd
+ls /media/hdd/
+hitory
+history
+clr
+man rsync
+rsync -av ~ /media/hdd
+sudo rsync -av ~ /media/hdd
+clr
+ls -la
+cd .cache/
+ls
+fzf
+cd vim
+ls
+ls backup/
+ls undo
+ls swap/
+du -sh .
+nvim
+ls
+cd swap/
+ls
+ls Documents/
+lsblk
+sudo umoun /media/hdd/
+sudo umount /media/hdd/
+clr
+ls
+ls -la
+ls .config/
+clr
+startxfce4 
+ls
+cd .cache/vim/swap/
+ls
+ls -la
+clr
+ls
+rsync -av development/ ~/
+ls ~
+rsync -av development ~/
+clr
+ls ~
+ls
+rsync -av Documents/ /home/zooxs/Documents/
+clr
+l
+ls
+rsync -av Downloads/ /home/zooxs/Downloads/
+ls
+rsync -av script /home/zooxs/
+clr
+ls
+ls pip
+ls -la
+rsync -av backup ~/
+clr
+l
+ls
+ls babl/
+rsync -av venv ~/
+ls
+clr
+ls
+ls -la
+ls .vim/
+ls .vim/plug
+clr
+rsync -av .vim ~/
+clr
+ls ~
+ls -la ~
+ls -la
+ls .config/
+rsync -av .config ~/
+clr
+l
+ls
+rsync -av Pictures ~/
+clr
+l
+ls
+ls -l
+ls -la
+ls wallpapers/
+rsync -av wallpapers /home/zooxs/Pictures/
+cl
+clr
+ls
+ls undo
+ls -la
+ls wal
+ls .config/
+clr
+ls
+ls urxvt-perls/
+man rsync
+clr
+rsync -av -P isofiles ~/
+ls
+ls pip
+rm -r development/
+rm -r Downloads/
+l
+rm -r Documents/
+ls
+rsync -av blogger ~/
+clr
+ls
+rm -r backup/
+clr
+ls
+cd backup/
+ls
+ls -la
+rm -r .git/
+ls
+ls -la
+..
+l
+ls
+ls ~
+rm -r isofiles/
+ls
+rm -r Pictures/
+rsync -av android ~/
+clr
+ls
+rm -r android/
+ls
+pwd
+rsync -av urxvt-perls ~/
+clr
+ls
+man git
+clr
+l
+ls
+rm -r venv/
+ls ~
+rsync -av Videos ~/
+ls -la
+rm -r script/
+ls .urxvt/
+ls ranger/
+clr
+ls
+ls -la
+du -sh .
+cd blogger/
+git rm
+ls
+ls -la
+ls ~
+git restore
+git rm .
+man git
+clr
+git-rm
+git rm
+git reset
+clr
+cd
+ls
+nvim
+clr
+ls
+fml
+deactivate 
+mbl
+deactivate 
+lsblk
+sudo mount /dev/sdb1 /media/hdd/
+ls /media/hdd/zooxs/
+rsync -av /home/zooxs /media/hdd/
+du -sh /media/hdd/zooxs/
+clr
+sudo umount /media/hdd/
+ls .config/
+ls -la
+ls .local/
+ls .local/share/
+ls -la .cache/vim/swap/
+rsync -av .cache/vim/swap/.local .
+ls .local/
+ls .local/share/
+ls -la .cache/vim/swap/
+rsync -av .cache/vim/swap/.xdman .
+ls -la
+rm -r myVim/
+rm -r python/
+ls
+vmr
+clr
+ls .config/wal
+ls
+cd .config/
+ls
+ls wal
+ls wallpaper/
+..
+shutdown 0
+pacman -Ss st
+pacman -Ss st-term
+sudo pacman -S st
+st
+ls
+sxh
+st
+ls
+xrdb .Xresources 
+ls .cache/wal
+ls
+ls .cache/
+cd .cache/
+ls
+ls -la
+cd
+ls
+ls-la
+ls -la
+ls
+ranger
+clr
+l
+xrdb .Xresources 
+urxvt
+sxh
+cd script/
+ls
+chmod -x takeShoot 
+ls
+nv takeShoot 
+clr
+ls
+rm test11.png 
+clr
+ls
+cd
+cd .cache/
+ls
+ranger
+cd
+ranger
+clr
+ls
+cd .cache/
+ls
+rsync -av vim/swap/mozilla .
+cl
+clr
+cd
+Documents/kp/sections/
+ls
+..
+cd parrent/
+ls
+nv parrent.rmd 
+vmr
+nv ~/.Xresources 
+cd
+cd .cache/vim/swap/
+ls
+ls urxvt-perls/
+..
+..
+ls
+man xclip
+cd
+cd urxvt-perls/
+ls
+ls deprecated/
+cd
+ls -la
+rsync -av .cache/vim/swap/.urxvt/ext .
+clr
+xrdb .Xresources 
+ls
+cd Documents/kp/parrent/
+zathura parrent.pdf 
+startx
+clr
+ls
+ls -la
+nv .Xresources 
+clr
+ls
+nv .xinitrc 
+clr
+xrdb .Xresources 
+startx
+nv .Xresources 
+vmr
+clr
+pamac update
+clr
+shutdown 0
+nv .Xresources 
+ls
+ls ext/
+ls -la
+mkdri .urxvt
+mkdir .urxvt
+mv ext .urxvt/
+clr
+xrdb .Xresources 
+ls
+mkdir suckless
+cd suckless/
+git clone https://git.suckless.org/dmenu
+ls
+cd dmenu/
+ls
+nv dmenu-center-20200111-8cd37e1.diff 
+patch -R1 dmenu-center-20200111-8cd37e1.diff 
+man patch
+patch -p1 dmenu-center-20200111-8cd37e1.diff 
+clr
+patch  dmenu-center-20200111-8cd37e1.diff 
+clr
+patch -p1 < dmenu-center-20200111-8cd37e1.diff 
+sudo make clean install
+man dmenu
+ls | dmenu -c -l 10
+ls | dmenu -c -l 10
+clr
+nvim $(ls . | dmenu -c -p "Choose one: " -l 10 )
+..
+cd
+Downloads/
+ls
+Downloads/
+ls
+ls -la
+cd Documents/
+ls
+man wget
+find . -type f -name "*bin"
+ls
+nv -zNM.bin 
+nv *bin
+clr
+ranger
+nv wallSearch 
+mv wallSearch script/
+cd script/
+ls
+chmod +x wallSearch 
+wallSearch 
+clr
+nv wallSearch 
+cd
+ls
+nv script/wallSearch 
+wallSearch 
+clr
+nv script/wallSearch 
+wallSearch 
+nmcli general status 
+nmcli device wifi 
+cd script/
+nv wallSearch 

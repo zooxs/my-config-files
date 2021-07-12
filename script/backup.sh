@@ -1,3 +1,5 @@
+#! /bin/sh
+
 # list config files
 FilesConfig=(
     $HOME/.bash*
