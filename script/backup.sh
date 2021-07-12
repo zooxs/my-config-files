@@ -19,6 +19,7 @@ Directory=(
     $HOME/.vim
     $HOME/development
     $HOME/.config/wal
+    $HOME/venv
     
 )
 

@@ -1,15 +1,3 @@
-man pro
-clr
-eval
-man eval
-man read
-sudo pacman -Sy
-clr
-man exec
-exec | dmenu -b -p "Insert the name: " -l 10
-scrot -s '$(exec | dmenu -b -p "Insert the name: " -l 10).png'
-ls
-rm *png
 s
 ls
 clr
@@ -498,3 +486,15 @@ nmcli general status
 nmcli device wifi 
 cd script/
 nv wallSearch 
+cd script/
+ls
+backup.sh 
+git rm --cached .vim/plugged/vim-floaterm
+ls
+cd
+cd backup/
+ls
+git rm --cached .vim/plugged/vim-floaterm
+backup.sh 
+git push
+du -sh
