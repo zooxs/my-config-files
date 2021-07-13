@@ -1,284 +1,3 @@
-s
-ls
-clr
-scrot -s $(exec | dmenu -b -p "Insert the name: " -l 10).png 
-ls
-sxiv test.png 
-rm test.png 
-sxiv
-sxh
-sxiv Pictures/shoots/test1.png 
-clr
-shutdown 0
-sxh
-ranger
-cd script/
-ls
-cat test 
-cp test test1
-nv test1
-cat test1 | dmenu -b -p "Choose one: " -l 10
-nv test1
-echo "yes\no"
-echo "yes\nno"
-echo "yes \n no"
-echo "yes \ no"
-\
-clr
-echo yes|no
-echo yes
-cd
-Documents/kp/sections/
-ls
-cat BAB4.rmd 
-cat BAB3.rmd 
-clr
-nv BAB3.rmd 
-ls
-cd
-ls Pictures/shoots/
-clr
-cd script/
-ls
-backup.sh 
-clr
-cat test
-nv backup.sh 
-ls
-vn bright-change.sh 
-nv bright-change.sh 
-nv sorting.sh 
-nv wal-change.sh 
-nv wifi.sh 
-rm test1
-clr
-l
-ls
-nv takeShoot
-chmod +x takeShoot 
-takeShoot 
-nv takeShoot
-ls
-takeShoot 
-clr
-nv takeShoot 
-nvim
-vim
-cd
-ls
-ls
-ls
-ls
-l
-sl
-sl
-s
-ls
-ls
-l
-python
-fml
-clr
-ls -la
-ranger
-ls .local/share/
-ls
-ranger
-man mv
-ls
-ls
-lsblk
-usb
-sudo mount /dev/sdc1 /media/usb/
-cd Documents/
-ls
-cd Documents/
-ls
-sudo umount /media/usb/
-sudo mount /dev/sdc1 /media/usb/
-sudo cp Laporan_KP_Semen_Padang.docx /media/usb/personal/kp/
-sudo umount /media/usb/
-clr
-ls -la
-ls .config/
-mkdir .config/bspwm
-mkdir .config/sxhdk
-clr
-sudo mount /dev/sdc1 /media/usb/
-sudo umount /media/usb/
-sudo mount /dev/sdc1 /media/usb/
-cd Documents/Documents/
-ls
-sudo cp Laporan_KP_Semen_Padang.docx /media/usb/personal/kp/
-ls /media/usb/personal/kp/
-sudo cp Laporan_KP_Semen_Padang.docx /media/usb/personal/kp/
-ls /media/usb/personal/kp/
-clr
-sudo umount /media/usb/
-clr
-ls
-startx
-clr
-startxfce4 
-sudo pacman -Sy
-lblks
-lsblk
-sudo mount /dev/sdb1 /media/hdd
-ls /media/hdd/
-hitory
-history
-clr
-man rsync
-rsync -av ~ /media/hdd
-sudo rsync -av ~ /media/hdd
-clr
-ls -la
-cd .cache/
-ls
-fzf
-cd vim
-ls
-ls backup/
-ls undo
-ls swap/
-du -sh .
-nvim
-ls
-cd swap/
-ls
-ls Documents/
-lsblk
-sudo umoun /media/hdd/
-sudo umount /media/hdd/
-clr
-ls
-ls -la
-ls .config/
-clr
-startxfce4 
-ls
-cd .cache/vim/swap/
-ls
-ls -la
-clr
-ls
-rsync -av development/ ~/
-ls ~
-rsync -av development ~/
-clr
-ls ~
-ls
-rsync -av Documents/ /home/zooxs/Documents/
-clr
-l
-ls
-rsync -av Downloads/ /home/zooxs/Downloads/
-ls
-rsync -av script /home/zooxs/
-clr
-ls
-ls pip
-ls -la
-rsync -av backup ~/
-clr
-l
-ls
-ls babl/
-rsync -av venv ~/
-ls
-clr
-ls
-ls -la
-ls .vim/
-ls .vim/plug
-clr
-rsync -av .vim ~/
-clr
-ls ~
-ls -la ~
-ls -la
-ls .config/
-rsync -av .config ~/
-clr
-l
-ls
-rsync -av Pictures ~/
-clr
-l
-ls
-ls -l
-ls -la
-ls wallpapers/
-rsync -av wallpapers /home/zooxs/Pictures/
-cl
-clr
-ls
-ls undo
-ls -la
-ls wal
-ls .config/
-clr
-ls
-ls urxvt-perls/
-man rsync
-clr
-rsync -av -P isofiles ~/
-ls
-ls pip
-rm -r development/
-rm -r Downloads/
-l
-rm -r Documents/
-ls
-rsync -av blogger ~/
-clr
-ls
-rm -r backup/
-clr
-ls
-cd backup/
-ls
-ls -la
-rm -r .git/
-ls
-ls -la
-..
-l
-ls
-ls ~
-rm -r isofiles/
-ls
-rm -r Pictures/
-rsync -av android ~/
-clr
-ls
-rm -r android/
-ls
-pwd
-rsync -av urxvt-perls ~/
-clr
-ls
-man git
-clr
-l
-ls
-rm -r venv/
-ls ~
-rsync -av Videos ~/
-ls -la
-rm -r script/
-ls .urxvt/
-ls ranger/
-clr
-ls
-ls -la
-du -sh .
-cd blogger/
-git rm
-ls
-ls -la
-ls ~
-git restore
 git rm .
 man git
 clr
@@ -498,3 +217,284 @@ git rm --cached .vim/plugged/vim-floaterm
 backup.sh 
 git push
 du -sh
+ls
+backup/
+ls
+ls -la
+cd
+nv script/backup.sh 
+backup.sh 
+ls
+cd backup/
+ls
+du -sh .
+rm -r venv/
+clr
+..
+nv script/backup.sh 
+startx
+shutdown 0
+notify-send "hy ther"
+notify-send "hy lslsl"
+Pictures/Camera/
+ls
+for i in $(ls .*jpg);do identify -format "%wxh" $i;done
+for i in $(ls *jpg);do identify -format "%wxh" $i;done
+clr
+ls
+for i in $(ls *jpg);do identify -format "%wxh" $i; echo "\n";done > resolution.txt
+clr
+ls
+cat resolution.txt 
+rm resolution.txt 
+clr
+du -sh .
+ls
+identify IMG_20210709_152624.jpg 
+identify IMG_20210709_152624.jpg | tr " " \t
+identify IMG_20210709_152624.jpg | tr " "
+identify IMG_20210709_152624.jpg | tr " " "\t"
+identify IMG_20210709_152624.jpg | tr " " "\n"
+convert IMG_20210709_152624.jpg -resize 600x400 > test.jpg
+convert IMG_20210709_152624.jpg -resize 600x400\ > test.jpg
+man convert
+cp IMG_20210709_152624.jpg test.jpg
+ls
+convert test.jpg -resize 600x400\ > test.jpg
+rm test.jpg 
+clr
+ls
+clr
+masn doas
+man doas
+sudo pacman -Sy
+dunst
+ls Pictures/
+wallSearch 
+clr
+ls
+nv script/wallSearch 
+mkdir Pictures/save
+clr
+wallSearch 
+man jq
+sudo pacman -S jq
+wallSearch 
+ls Pictures/backgrounds/
+ranger
+clr
+ls
+wallSearch 
+clr
+nv script/wallSearch 
+wallSearch 
+nv script/wallSearch 
+wallSearch 
+nv script/wallSearch 
+nv script/wallSearch 
+wallSearch 
+nv script/wallSearch 
+wallSearch 
+nv script/wallSearch 
+wallSearch 
+ls
+cd Pictures/
+ls
+ls save/
+sxiv sava
+sxiv save
+clr
+ls
+cd save/
+ls
+..
+ls
+mv save/* backgrounds/
+ls
+clr
+wallSearch 
+clr
+dunst
+clr
+ls
+nv .xinitrc 
+dunst
+clr
+pip list -o
+clr
+Pictures/shoots/
+l
+ls
+sxiv path_saga_gis.png 
+sxiv saga-gis-ltr-error.png 
+clr
+ls
+matrix
+sudo pacman -S matrix
+pacman -Ss matric
+pacman -Ss matrix
+clr
+htop
+clr
+startx
+shutdown 0
+man convert
+ls
+cd Pictures/shoots/
+ls
+convert -verbose path_saga_gis.png 
+convert path_saga_gis.png -verbose
+man verbose
+man convert
+ls
+nv .xinitrc 
+startx
+notify-send "hi there"
+lr
+clr
+Documents/kp/
+ls
+nv
+cd sections/
+nv BAB3.rmd 
+cd
+cd Pictures/Camera/
+ls
+convert IMG_20210709_152624.jpg text.png
+ls | wc -l
+ranger
+clr
+ls *202105*
+rm $(ls *202105*)
+ls
+ranger
+clr
+ls
+history | less
+identify text.png 
+identify "%wx%h" text.png 
+identify "$wx$h" text.png 
+clr
+man identify
+identify -size text.png 
+identify -size geometry text.png 
+identify --size-geometry text.png 
+convert text.png -resize 300x300 test.png
+sxiv test.png 
+sxiv test.png text.png 
+convert text.png -resize 300x300 text.png
+sxiv text.png 
+rm text.png test.png 
+clr
+ls
+clr
+ls -la
+clr
+for i in $(ls *jpg); do echo $i;done
+for i in $(ls *jpg); do echo fixed-$i;done
+for i in $(ls *jpg); do echo i;done
+for i in $(ls *jpg); do echo $i;done
+for i in $(ls *jpg); do cut '_' {print $3} $i;done
+for i in $(ls *jpg); do echo $i | cut '_' {print $3};done
+for i in $(ls *jpg); do cut -d '_' {print $3} $i;done
+man cut
+history | grepp cut
+history | grep cut
+for i in $(ls *jpg); do echo $i | cut '_' {print f3 $3};done
+for i in $(ls *jpg); do echo $i | cut -d '_' {print f3 $3};done
+for i in $(ls *jpg); do echo $i | cut -d '_' -f 3 ;done
+for i in $(ls *jpg); do echo $i | cut -d '_' -f 2,3 ;done
+for i in $(ls *jpg); do name=$(echo $i | cut -d '_' -f 2,3);convert $i -resize 600x600 $name ;done
+ls
+du -sh
+du -sh IMG*
+ls
+mkdir source
+mv IMG* source/
+ls
+ranger
+sum
+man sum
+for i in $(ls *jpg); do echo $i | awk '_' {printf $1};done
+for i in $(ls *jpg); do echo $i | awk '_' {print $1};done
+for i in $(ls *jpg); do echo $i | awk '_' '{print $1}';done
+for i in $(ls *jpg); do echo $i | awk '{print $1}';done
+for i in $(ls *jpg); do echo $i | awk '{print $0}';done
+for i in $(ls *jpg); do echo $i | awk '{print $1}';done
+for i in $(ls *jpg); do echo $i | awk -F '_' {print $1}';done
+ls 
+ls *jpg | awk -F '_' '{print $1}'
+ls *jpg | awk -F '_' '{print $2}'
+clr
+ls
+clr
+ls
+du -sh .
+cl
+shutdown 0
+ls | dmenu
+cd suckless/dmenu/
+ls
+nv config.def.h 
+ls
+sudo cp config.def.h config.h
+sudo make clean install
+clr
+ls | dmenu
+clr
+ls | dmenu -p "choose one: " -l 10
+sr
+bsr
+bsr
+ls
+clr
+nv .cache/wal/colors.sh
+startx
+.cache/wal/
+ls
+nv colors.sh
+bsr
+cd
+cat .bash_aliases 
+bsp
+pbr
+clr
+ls
+ls tmp.txt 
+cat tmp.txt 
+clr
+rm tmp.txt 
+l
+ls
+clr
+shutdown 0
+startx
+ranger
+ranger
+du -sh .
+clr
+man du
+du -h
+clr
+shutdown 0
+ls -la
+pacman -Ss mendeley
+pamac search mendeley
+clr
+ls
+mv Struktur\ Organisasi\ Lab.pptx Documents/kp/pedoman/
+Documents/kp/fig/
+ls
+ls -t
+indetify struktur-qa.png 
+history 
+identify struktur-qa.png 
+clr
+cd script/
+ls
+nv script/wal-change.sh 
+ls
+ls -la
+find . -type d -name ".trash"
+nv .config/ranger/rc.conf 
+man trash

@@ -142,7 +142,7 @@ shift + Print
 	scrot -s $(exec | dmenu -b -p "Insert the name: " -l 10).png -e 'mv $f ~/Pictures/shoots/'
 # browser
 super + alt + w
-	firefox
+	. websearch
 
 # open script file
 # super + alt + s

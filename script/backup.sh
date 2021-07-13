@@ -19,9 +19,10 @@ Directory=(
     $HOME/.vim
     $HOME/development
     $HOME/.config/wal
-    $HOME/venv
     
 )
+
+notify-send "Backup data: still in proggress"
 
 # check if files are exist and backup them to backup directory
 for i in "${FilesConfig[@]}"
@@ -48,3 +49,5 @@ cd $HOME/backup
 git add .
 git commit -m "backup data at $(date)"
 cd
+
+notify-send "Backup: Completed!"

@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill '/home/zooxs/Pictures/backgrounds/wallhaven-e7z65r.jpg' 
+feh --no-fehbg --bg-fill '/home/zooxs/.config/wallpaper/wal.png' 

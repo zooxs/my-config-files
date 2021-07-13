@@ -1,6 +1,6 @@
 #!/bin/sh
 
-walldir="$HOME/pix/save"
+walldir="$HOME/Pictures/save"
 maxpage=5
 tagoptions="#minimalism\n#Cyberpunk 2077\n#fantasy girl\n#digital art\n#anime\n#4K\n#nature"
 if [ -z $1 ]; then
@@ -22,8 +22,9 @@ do
   curl -s https://wallhaven.cc/api/v1/search\?atleast\=1920x1080\&sorting\=$sorting\&q\=$query\&page\=$i > tmp.txt
   page=$(cat tmp.txt | jq '.' | grep -Eoh "https:\/\/w\.wallhaven.cc\/full\/.*(jpg|png)\b")
   wget -nc -P $walldir $page
+  # printf $page "\n"
 done
 rm tmp.txt
 notify-send "😊 Download finish ✅"
 sxiv -t $walldir/*
-mv $walldir/* ~/pix/wall/
+mv $walldir/* ~/Pictures/backgrounds/

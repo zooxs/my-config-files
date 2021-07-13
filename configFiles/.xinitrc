@@ -71,5 +71,6 @@ fi
 
 polybar example &
 sxhkd &
+dunst &
 # exec $(get_session "$1")
 exec bspwm
