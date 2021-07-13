@@ -1,0 +1,6 @@
+#! /bin/sh
+
+dirName=$(find ~ -type d | dmenu -p "Choose directory: " -l 10)
+cd $dirName
+fileName=$(find . -type f | dmenu -p "Choose file: " -l 10)
+nvim $fileName
