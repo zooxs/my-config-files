@@ -1,3 +1,8 @@
 #! /bin/sh
 
-scrot -s $(exec | dmenu -b -p "Insert the name: ").png
+fileName=$(exec | dmenu -c -p "Insert the name: ").png
+scrot -s $fileName
+
+dirName=$(find ~ -type d | dmenu -c -p "Choose directory: " -l 10)
+mv $fileName $dirName
+
